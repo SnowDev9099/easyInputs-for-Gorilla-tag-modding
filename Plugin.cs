@@ -1,4 +1,19 @@
-﻿namespace easyInputs
+using BepInEx;
+using System;
+using System.Collections;
+using UnityEngine;
+using UnityEngine.XR;
+
+[BepInPlugin("com.SnowDev.easyinputs", "Easy Inputs", "1.0.0")]
+public class EasyInputsMod : BaseUnityPlugin
+{
+    private void Awake()
+    {
+        // Code to run when the mod is loaded
+        Logger.LogInfo("Easy Inputs Mod Loaded");
+    }
+}
+namespace easyInputs
 {
     using System;
     using System.Collections;
