@@ -9,7 +9,6 @@ public class EasyInputsMod : BaseUnityPlugin
 {
     private void Awake()
     {
-        // Code to run when the mod is loaded
         Logger.LogInfo("Easy Inputs Mod Loaded");
     }
 }
